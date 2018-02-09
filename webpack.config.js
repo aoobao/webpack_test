@@ -26,6 +26,7 @@ module.exports = {
         //     errors: true,
         //     warnings: true
         // }
+        //hotOnly:true
     },
     entry: {
         app: PATHS.app
@@ -80,5 +81,6 @@ module.exports = {
         //     name:'vendor'
         // }),
         //new BabiliPlugin(),
+        //new webpack.HotModuleReplacementPlugin()
     ]
 };

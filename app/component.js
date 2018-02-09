@@ -10,3 +10,4 @@ export default (text = 'hello world', class1, class2) => {
     element.appendChild(p);
     return element;
 }
+
